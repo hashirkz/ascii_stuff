@@ -17,7 +17,6 @@ ascii
 ### example
 ```
 sleepyzzz:/mnt/c/users/hashi/documents/ascii_stuff$ ascii
-Gdk-Message: 01:00:32.801: Unable to load fleur from the cursor theme
 path to img: ./imgs/pfp.jpg
 height for .txt file: 40
 invert y/n: n
