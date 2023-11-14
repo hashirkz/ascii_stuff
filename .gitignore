@@ -1,3 +1,4 @@
 imgs
 error.log
-*.txt
+old_stuff
+__pycache__
