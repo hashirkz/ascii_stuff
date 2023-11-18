@@ -2,3 +2,6 @@ imgs
 error.log
 old_stuff
 __pycache__
+ascii.egg-info
+poetry.lock
+dist
