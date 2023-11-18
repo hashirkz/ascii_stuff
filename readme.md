@@ -4,14 +4,7 @@ ascii .txt image rendering with python
 
 ## installation
 **WORKS IN WSL2 and DEBIAN/UBUNTU \*NIX**
-#### using pip
-```bash
-pip install ascii_img_stuff==0.1.3
 
-# the python binary is installed to $HOME/.local/bin/ascii
-# run the ascii command and fill in the details it asks for
-ascii
-```
 #### using git
 ```bash
 

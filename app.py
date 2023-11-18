@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # https://github.com/hashirkz/ascii_stuff
 
-from .ascii import *
+from ascii import *
 
 def app():
     wd = os.getcwd()
