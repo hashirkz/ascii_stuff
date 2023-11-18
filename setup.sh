@@ -3,4 +3,4 @@ sudo apt update
 # sudo apt install python3.8
 pip3 install -r 'requirements.txt'
 
-sudo cp ./ascii_img_stuff/ascii.py $HOME/.local/bin/ascii
+sudo cp ./ascii_img_stuff/app.py $HOME/.local/bin/ascii
