@@ -1,16 +1,25 @@
 # about 
-ascii .txt image rendering with python  
-this is the program i use to make all the ascii drawings you see on my page
+ascii .txt image rendering with python
+*i use this to make ascii drawings on my page lol
 
-## usage
+## installation
 **WORKS IN WSL2 and DEBIAN/UBUNTU \*NIX**
+#### using pip
+```bash
+pip install ascii_img_stuff==0.1.3
+
+# the python binary is installed to $HOME/.local/bin/ascii
+# run the ascii command and fill in the details it asks for
+ascii
+```
+#### using git
 ```bash
 
 git clone "https://github.com/hashirkz/ascii_stuff"
 cd ascii_stuff
 ./setup.sh
 
-# installs python program to /usr/bin/ascii
+# installs python program to ~/.local/bin/ascii
 ascii
 ```
 
