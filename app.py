@@ -32,7 +32,7 @@ def app():
     ascii = pretty_repr(ascii, show=False, save=save, savepath=savepath)
     print(ascii)
 
-    print(f'saved to: {savepath}')
+    if save: print(f'saved to: {savepath}')
 
 if __name__ == '__main__':
     app()
