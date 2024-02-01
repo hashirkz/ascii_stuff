@@ -5,11 +5,10 @@ import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import image as mimg
 import os
-import logging as log
 from skimage.transform import resize
 
 # logfile setup stuff
-log.basicConfig(filename='error.log', level=log.ERROR)
+# log.basicConfig(filename='error.log', level=log.ERROR)
 
 # normalize and invert np.ndarray 
 norm = lambda x : (x-np.min(x))/(np.max(x)-np.min(x))
@@ -61,7 +60,7 @@ def read_img(path: str, show=False, save=False, inv=True) -> np.ndarray:
 
         return img
     except FileNotFoundError as err:
-        log.error(f'ERROR: {err}, msg: unable to find {path} in {os.getcwd()}')
+        print(f'ERROR: {err}, msg: unable to find {path} in {os.getcwd()}')
         return 
 
 # image to ascii characters
