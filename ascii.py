@@ -17,6 +17,8 @@ invert = lambda x : 1.0 - x
 
 # utility grayscale rbg m x n x 3 tensors to m x n 
 def rgb2gray(rgb: np.ndarray) -> np.ndarray:
+	if rgb.ndim == 2: return rgb
+
     r, g, b = rgb[:,:,0], rgb[:,:,1], rgb[:,:,2]
     gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
 
